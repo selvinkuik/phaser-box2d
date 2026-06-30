@@ -107,7 +107,7 @@ export function BodyToSprite(body: b2Body, sprite: Sprite): void;
  * @property {number} rotation - The rotation of the sprite in radians.
  * @property {number} [scaleX] - Optional horizontal scale of the sprite.
  * @property {number} [scaleY] - Optional vertical scale of the sprite.
- * @property {b2Vec2} [scale] - Optional scale vector of the sprite.
+ * @property {number} [scale] - Optional scale vector of the sprite.
  */
 /**
  * Creates a box-shaped polygon and attaches it to a body based on the dimensions, position
@@ -599,7 +599,7 @@ export type Sprite = {
     /**
      * - Optional scale vector of the sprite.
      */
-    scale?: b2Vec2;
+    scale?: number;
 };
 export type WorldConfig = {
     /**

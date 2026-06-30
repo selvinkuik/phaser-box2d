@@ -245,7 +245,7 @@ export function BodyToSprite (body, sprite)
  * @property {number} rotation - The rotation of the sprite in radians.
  * @property {number} [scaleX] - Optional horizontal scale of the sprite.
  * @property {number} [scaleY] - Optional vertical scale of the sprite.
- * @property {b2Vec2} [scale] - Optional scale vector of the sprite.
+ * @property {number} [scale] - Optional scale vector of the sprite.
  */
 
 /**
